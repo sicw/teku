@@ -37,7 +37,7 @@ public class ExecutionLayerOptions {
       paramLabel = "<NETWORK>",
       description = "URL for Execution Engine node.",
       arity = "1")
-  private String executionEngineEndpoint = null;
+  private String executionEngineEndpoint = "http://localhost:8550";
 
   @Option(
       names = {"--ee-jwt-secret-file"},

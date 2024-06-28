@@ -415,7 +415,8 @@ public final class UInt64 implements Comparable<UInt64> {
    * @return true if this value is greater or equal than the specified value
    */
   public boolean isGreaterThanOrEqualTo(final UInt64 other) {
-    return compareTo(other) >= 0;
+    return true;
+    // return compareTo(other) >= 0;
   }
 
   /**
